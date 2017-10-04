@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>Senior High School Finder
+</title>
+<link rel="stylesheet" type="text/css" href="design.css" />
+<script type="text/javascript" src="date_time.js"></script>
+
+
+
+
+</head>
+<body id="index" background="images/indexbg.png">
+<img src="images/shs finder.png" height="30%" width="100%" style="margin-bottom:50; margin-top:30">
+
+<div>
+<ul class="navigation">
+<li><a href="index.html">Home</a></li>
+<li><a href="schools.html">Schools</a></li> 
+<li><a href="programs.html">Programs</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contacts</a></li>
+</div>
+<span id="date_time" style="color:yellow"></span>
+            <script type="text/javascript">window.onload = date_time('date_time');</script>
+<br>
+<br>
+<br>
+<div="form">
+<form>
+Login<br>
+
+Username: <input type="text" name="user" value=""><br>
+Password: <input type="text" name="pass" value=""><br>
+
+<input type="submit" value="Login"><br>
+
+<a href="register.html">Register</a>
+
+
+</form>
+<div style="width:800px; margin:50px; auto;">
+<p>What is K-12?</p>
+<p>K-12, a term used in education and educational technology in the United States, Canada, and possibly other countries, is a short form for the publicly-supported school grades prior to college. These grades are kindergarten (K) and the 1st through the 12th grade (1-12)</p>
+
+<p>What is Senior High School?</p>
+<p>Senior High School (SHS) covers the last two years of the K to 12 program and includes Grades 11 and 12. In SHS, students will go through a core curriculum and subjects under a track of their choice.</p>
+</div>
+
+
+</body>
+
+</html>
